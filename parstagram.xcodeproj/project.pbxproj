@@ -18,6 +18,8 @@
 		BA2E8BDF222F524200B94F60 /* parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E8BDE222F524200B94F60 /* parstagramUITests.swift */; };
 		BA778EF0222F5E5200E263DF /* logInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA778EEF222F5E5200E263DF /* logInViewController.swift */; };
 		BA778EF2222F5E9100E263DF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA778EF1222F5E9100E263DF /* FeedViewController.swift */; };
+		BA778EF4222F6BAF00E263DF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA778EF3222F6BAF00E263DF /* CameraViewController.swift */; };
+		BA778EF62231BD8300E263DF /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA778EF52231BD8300E263DF /* postCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		BA2E8BE0222F524200B94F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA778EEF222F5E5200E263DF /* logInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInViewController.swift; sourceTree = "<group>"; };
 		BA778EF1222F5E9100E263DF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BA778EF3222F6BAF00E263DF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		BA778EF52231BD8300E263DF /* postCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
 		C5C933A9A3575CE71C4A524B /* Pods_parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7328A56409BBC3720F4D74F /* Pods-parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-parstagram/Pods-parstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +150,8 @@
 				BA2E8BCA222F524200B94F60 /* Info.plist */,
 				BA778EEF222F5E5200E263DF /* logInViewController.swift */,
 				BA778EF1222F5E9100E263DF /* FeedViewController.swift */,
+				BA778EF3222F6BAF00E263DF /* CameraViewController.swift */,
+				BA778EF52231BD8300E263DF /* postCell.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -401,8 +407,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA778EF0222F5E5200E263DF /* logInViewController.swift in Sources */,
+				BA778EF4222F6BAF00E263DF /* CameraViewController.swift in Sources */,
 				BA778EF2222F5E9100E263DF /* FeedViewController.swift in Sources */,
 				BA2E8BBF222F523F00B94F60 /* AppDelegate.swift in Sources */,
+				BA778EF62231BD8300E263DF /* postCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 import UIKit
 import Parse
 import AlamofireImage
+import MessageInputBar
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
@@ -16,6 +17,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var tableView: UITableView!
     var posts = [PFObject]()
+    let commentBar = MessageInputBar()
 
     
     override func viewDidLoad() {
@@ -26,6 +28,13 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView.estimatedRowHeight = 140
 
         // Do any additional setup after loading the view.
+    }
+    
+    override var inputAccessoryView: UIView?{
+        return commentBar
+    }
+    override var canBecomeFirstResponder: Bool{
+        return true
     }
     
     override func viewDidAppear(_ animated: Bool) {

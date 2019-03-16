@@ -62,6 +62,15 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.photoView.af_setImage(withURL: url)
         return cell
     }
+    
+    @IBAction func onLogoutBtutton(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let LoginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        delegate.window?.rootViewController = LoginViewController
+    }
+    
     /*
     // MARK: - Navigation
 
